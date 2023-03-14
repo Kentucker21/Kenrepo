@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="arrowhead.png" type="image/icon type">
     <title>portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&family=Montserrat&family=Oswald:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="kenny-portfolio.css">
-    <link rel="stylesheet" type="text/css" href="blobz.min.css">
+    <link rel="stylesheet" href="../css/kenny-portfolio.css">
+    <link rel="stylesheet" type="text/css" href="../Photos/blobz.min.css">
   
 </head>
 <body>
@@ -19,13 +18,13 @@
     <header>  
         <nav>
             <div class="arrow-container">
-                <a href="#hero-section"><img class="arrow" src="arrowhead.png" alt=""></a>
+                <a href="#hero-section"><img class="arrow" src="/Photos/arrowhead.png" alt=""></a>
             </div>
            
             <ul class="nav-list" id="navlistId">
                 <li class="nav-item remove-scroll"> <a href="#hero-section"> Home</a></li>
                 <li class="nav-item remove-scroll"> <a href="#about-section">About</a> </li>
-                <li class="nav-item remove-scroll"> <a href="#languages-section">Languages</a> </li>
+                <li class="nav-item remove-scroll"> <a href="#languages-section">Technologies</a> </li>
                 <li class="nav-item remove-scroll"> <a href="#projects-section">Projects</a> </li>
                 <li class="nav-item remove-scroll"> <a href="#contact-section">Contact</a> </li>
             </ul>
@@ -37,8 +36,8 @@
     <section class="hero"  >
         <div class="landing">
             <div class="intro">
-                <img src="squircle.svg" alt="" class="green first">
-            <img src="squircle.svg" alt="" class="green second">
+                <img src="../Photos/squircle.svg" alt="" class="green first">
+            <img src="../Photos/squircle.svg" alt="" class="green second">
               <div class="littleabout">
                 <h2 class="welcome">welcome to the portfolio of <br>
                     <span class="myname" id="name-span" ></span>
@@ -47,10 +46,12 @@
                 <p class="littleinfo">
                     
                     I am a self thought programmer 
-                    and in the future aspire to be a 
-                    frontend developer.
+                    and 
+                   <b>frontend developer.</b> 
+                   who is also pursuing a computer science degree
                     At the moment I'm looking for opportunity to apply my skills on a team and for a company
                 </p>
+                <img src="../Photos/github.svg" alt="" class="go-to-github">
               </div>
                 <div class="mybuttons">
                     <button class="Resume landing-button">Resume</button>
@@ -70,13 +71,13 @@
                 </div>
                 
                
-                <img class='mypic' src="me.jpg" alt="">
+                <img class='mypic' src="../Photos/me.jpg" alt="">
                 
             </div>
            
         </div>
       
-        <img src="wave.svg" alt="" class="waves">
+        <img src="../Photos/wave.svg" alt="" class="waves">
     </section>
       
     
@@ -84,24 +85,43 @@
 
         <div class="languages" >
     
-                <h3 class="languages-title">Known Languages
+                <h3 class="languages-title">Known Technologies
                     <p class="lang-title-p">List of technologies I've learnt so far</p>
                 </h3>
                 
            
            
         <div class="list-of-langs">
-            <img src="HTML5_logo.svg" alt="">
-            <img src="CSS3_logo.svg" alt="" class="css-logo">
-            <img src="JavaScript_logo.svg" alt="">
-            <img src="Npm-logo.svg" alt="">
-            <img src="github.svg" alt="">
-            <img src="Tailwind_Logo.svg" alt="">
+            <div class='html-wrapper lang-wrapper'> <img src="../Photos/HTML5_logo.svg" alt=""  class="lang-logo html-logo">
+           <p class="html">HTML</p>  
+        </div>
+            <div class='css-wrapper lang-wrapper'><img src="../Photos/CSS3_logo.svg" alt="" class="lang-logo css-logo">
+           <p class="css">CSS</p> 
+        </div>
+            <div class="lang-wrapper"><img src="../Photos/JavaScript_logo.svg" alt="" class="lang-logo">
+           <p class="javascript">Javascript</p> 
+        </div>
+            <div class="lang-wrapper"> <img src="../Photos/Npm-logo.svg" alt="" class="lang-logo">
+           <p class="npm">NPM</p> </div>
+
+            <div class="lang-wrapper">
+                <img src="../Photos/github.svg" alt="" class="lang-logo">
+           <p class="github">Github</p> 
+        </div>
+           
+           <div class="lang-wrapper">
+                <img src="../Photos/Tailwind_Logo.svg" alt="" class="lang-logo">
+               <p class="tailwind"> Tailwind</p>
+            </div>
+            
+            
+           
+            
             
         </div>
        
         </div>
-        <img src="wave -white.svg" alt="" class="white-wave">
+        <img src="../Photos/wave -white.svg" alt="" class="white-wave">
     </section>
 
     <section class="My-projects" id="projects-section">
@@ -141,7 +161,7 @@
 
     
 </body>
-<script src="Kennys portfolio.js"></script>
+<script src="/js/Kennys portfolio.js"></script>
 </html>
 
 
